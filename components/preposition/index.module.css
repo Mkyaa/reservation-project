@@ -1,0 +1,42 @@
+.prepositionContainer{
+    @apply w-full 
+    flex flex-col 
+    items-center justify-center 
+}
+
+.prepositionContent{
+    @apply w-full max-w-5xl flex flex-col px-4
+}
+
+.prepositionTitle{
+    @apply w-full text-2xl font-semibold mb-8 mt-10;
+}
+
+.prepositionBody{
+    @apply w-full flex flex-col sm:flex-row flex-wrap 
+    justify-center lg:justify-between items-center  gap-4
+}
+
+.prepositionItem{
+    @apply w-full sm:w-[45%] lg:w-72 h-64 flex flex-col
+    border border-solid border-gray-200
+    rounded-md relative
+    p-4 gap-4
+}
+
+.prepositionItemIcon{
+    @apply w-full h-32 flex items-center justify-center
+}
+
+.prepositionItemIcon svg{
+    @apply text-6xl text-blue-800
+}
+
+.prepositionItemTitle{
+    @apply w-full h-16 
+    text-lg text-center font-semibold;
+}
+
+.prepositionItemDescription{
+    @apply w-full h-32 text-sm text-justify
+}

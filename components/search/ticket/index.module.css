@@ -1,0 +1,77 @@
+.ticket{
+    @apply w-full 
+    flex justify-between p-4 flex-col sm:flex-row
+    border border-solid border-gray-200
+    gap-3 sm:gap-0
+}
+
+.ticketLeft{
+    @apply flex flex-col items-center sm:items-start text-center sm:text-left
+}
+
+.ticketLeft>span{
+    @apply text-xs text-gray-500
+}
+
+.ticketLeftBottom{
+    @apply flex flex-col gap-2 mt-1 items-center sm:items-start
+}
+
+.ticketLeftBottom span{
+    @apply text-sm text-gray-500
+}
+
+.ticketLeftBottom svg{
+    @apply w-4 h-4
+}
+
+.ticketMiddle{
+    @apply flex flex-col justify-center
+    mx-4
+}
+
+.ticketMiddleTop{
+    @apply flex gap-2 items-center justify-center
+}
+
+.ticketMiddleTop p{
+    @apply text-sm font-medium text-gray-500
+}
+
+.ticketMiddleTop span{
+    @apply font-medium text-gray-700
+}
+
+
+.ticketMiddleBottom{
+    @apply flex gap-2 items-center justify-center
+    text-sm text-gray-500
+    mt-1
+}
+
+.ticketMiddleBottom svg{
+    @apply w-3 h-3
+}
+
+.ticketRight{
+    @apply flex flex-col justify-center items-center
+}
+
+.ticketRight p{
+    @apply text-xl font-semibold text-gray-700
+}
+
+.ticketRight span{
+    @apply text-xs text-gray-500
+}
+
+.ticketButton{
+    @apply flex justify-center items-center
+}
+
+.ticketButton button{
+    @apply px-4 py-2
+    text-sm font-medium text-white
+    bg-blue-900 rounded-md
+    cursor-pointer
+}

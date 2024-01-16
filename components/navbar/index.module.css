@@ -1,0 +1,9 @@
+.navbarContainer {
+    @apply hidden sm:flex 
+    gap-8 
+    text-gray-800 text-sm
+}
+
+.active {
+    @apply border-b border-solid border-gray-800
+}

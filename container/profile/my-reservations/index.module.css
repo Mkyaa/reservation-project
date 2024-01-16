@@ -1,0 +1,9 @@
+.myReservationsContainer {
+  @apply w-full h-full;
+}
+
+.myReservationsContent {
+  @apply w-full h-full
+    flex flex-col items-center
+    gap-10 sm:p-6 p-3
+}

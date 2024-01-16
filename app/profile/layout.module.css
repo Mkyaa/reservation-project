@@ -1,0 +1,23 @@
+.profileContainer {
+    @apply w-full min-h-[70dvh] 
+      flex justify-center
+      mt-40 px-4;
+  }
+  
+  .profileContent {
+    @apply w-full max-w-5xl p-4
+  }
+  
+  .profileTitle {
+    @apply w-full text-4xl font-medium text-center 
+    pb-8
+  }
+  
+  .profileNavbar {
+    @apply w-full  
+  }
+
+  .profileBody {
+    @apply w-full h-full
+  }
+  

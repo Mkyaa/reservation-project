@@ -1,0 +1,16 @@
+.brandsContainer{
+    @apply w-full py-10 px-4 flex justify-center items-center
+    mt-10
+}
+
+.brandsContent{
+    @apply w-full max-w-5xl flex gap-4
+}
+
+.brandsImage{
+    @apply w-1/4 lg:w-28 lg:h-14
+}
+
+.brandsImage img{
+    @apply w-full h-full object-contain
+}

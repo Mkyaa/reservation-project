@@ -1,0 +1,333 @@
+[
+    {
+        "id": "1",
+        "name": "Yeni Örnek Otel",
+        "city": "İzmir",
+        "district": "Alsancak",
+        "room_prices": {
+            "standard": 180,
+            "deluxe": 280,
+            "suite": 450
+        },
+        "room_availability": {
+            "standard": 8,
+            "deluxe": 3,
+            "suite": 1
+        },
+        "amenities": [
+            "Ücretsiz Wi-Fi",
+            "Spa",
+            "Restoran",
+            "Havuz"
+        ],
+        "rating": 4.7,
+        "description": "Lüks ve konforlu odalar sunan özel bir otel.",
+        "room_images": [
+            "https://zhabercomtr.teimg.com/crop/1280x720/zhaber-com-tr/uploads/2023/02/otel-fiyatlari-izmir.jpg",
+            "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+        ],
+        "contact_information": {
+            "phone": "+90 555 987 65 43",
+            "email": "info@yeniornekotel.com"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Yeni Örnek Otel 2",
+        "city": "Muğla",
+        "district": "Fethiye",
+        "room_prices": {
+            "standard": 160,
+            "deluxe": 270,
+            "suite": 420
+        },
+        "room_availability": {
+            "standard": 12,
+            "deluxe": 6,
+            "suite": 3
+        },
+        "amenities": [
+            "Ücretsiz Wi-Fi",
+            "Spa",
+            "Restoran"
+        ],
+        "rating": 4.3,
+        "description": "Modern ve rahat odalar sunan özel bir otel.",
+        "room_images": [
+            "https://zhabercomtr.teimg.com/crop/1280x720/zhaber-com-tr/uploads/2023/02/otel-fiyatlari-mugla.jpg",
+            "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+        ],
+        "contact_information": {
+            "phone": "+90 555 987 65 43",
+            "email": "info@yeniornekotel2.com"
+        }
+    },
+    {
+        "id": "3",
+        "name": "Yeni Örnek Otel 3",
+        "city": "Antalya",
+        "district": "Belek",
+        "room_prices": {
+            "standard": 170,
+            "deluxe": 260,
+            "suite": 430
+        },
+        "room_availability": {
+            "standard": 9,
+            "deluxe": 4,
+            "suite": 2
+        },
+        "amenities": [
+            "Ücretsiz Wi-Fi",
+            "Spa",
+            "Restoran"
+        ],
+        "rating": 4.6,
+        "description": "Lüks ve huzurlu odalar sunan özel bir otel.",
+        "room_images": [
+            "https://zhabercomtr.teimg.com/crop/1280x720/zhaber-com-tr/uploads/2023/02/otel-fiyatlari-antalya-belek.jpg",
+            "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+        ],
+        "contact_information": {
+            "phone": "+90 555 987 65 43",
+            "email": "info@yeniornekhotel3.com"
+        }
+    },
+    {
+        "id": "4",
+        "name": "Yeni Örnek Otel 4",
+        "city": "Antalya",
+        "district": "Kaş",
+        "room_prices": {
+            "standard": 155,
+            "deluxe": 265,
+            "suite": 410
+        },
+        "room_availability": {
+            "standard": 11,
+            "deluxe": 5,
+            "suite": 2
+        },
+        "amenities": [
+            "Ücretsiz Wi-Fi",
+            "Spa",
+            "Restoran"
+        ],
+        "rating": 4.4,
+        "description": "Modern ve konforlu odalar sunan özel bir otel.",
+        "room_images": [
+            "https://zhabercomtr.teimg.com/crop/1280x720/zhaber-com-tr/uploads/2023/02/otel-fiyatlari-antalya-kas.jpg",
+            "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+        ],
+        "contact_information": {
+            "phone": "+90 555 987 65 43",
+            "email": "info@yeniornekhotel4.com"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Yeni Örnek Otel 5",
+        "city": "Bodrum",
+        "district": "Turgutreis",
+        "room_prices": {
+            "standard": 175,
+            "deluxe": 255,
+            "suite": 420
+        },
+        "room_availability": {
+            "standard": 10,
+            "deluxe": 6,
+            "suite": 3
+        },
+        "amenities": [
+            "Ücretsiz Wi-Fi",
+            "Spa",
+            "Restoran"
+        ],
+        "rating": 4.5,
+        "description": "Huzurlu ve şık odalar sunan özel bir otel.",
+        "room_images": [
+            "https://zhabercomtr.teimg.com/crop/1280x720/zhaber-com-tr/uploads/2023/02/otel-fiyatlari-bodrum.jpg",
+            "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+        ],
+        "contact_information": {
+            "phone": "+90 555 987 65 43",
+            "email": "info@yeniornekhotel5.com"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Yeni Örnek Otel 6",
+        "city": "Antalya",
+        "district": "Kemer",
+        "room_prices": {
+            "standard": 160,
+            "deluxe": 270,
+            "suite": 420
+        },
+        "room_availability": {
+            "standard": 12,
+            "deluxe": 6,
+            "suite": 3
+        },
+        "amenities": [
+            "Ücretsiz Wi-Fi",
+            "Spa",
+            "Restoran"
+        ],
+        "rating": 4.3,
+        "description": "Modern ve rahat odalar sunan özel bir otel.",
+        "room_images": [
+            "https://zhabercomtr.teimg.com/crop/1280x720/zhaber-com-tr/uploads/2023/02/otel-fiyatlari-antalya-kemer.jpg",
+            "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+        ],
+        "contact_information": {
+            "phone": "+90 555 987 65 43",
+            "email": "info@yeniornekotel6.com"
+        }
+    },
+    {
+        "id": "7",
+        "name": "Yeni Örnek Otel 7",
+        "city": "Muğla",
+        "district": "Bodrum",
+        "room_prices": {
+            "standard": 165,
+            "deluxe": 255,
+            "suite": 430
+        },
+        "room_availability": {
+            "standard": 11,
+            "deluxe": 5,
+            "suite": 2
+        },
+        "amenities": [
+            "Ücretsiz Wi-Fi",
+            "Spa",
+            "Restoran"
+        ],
+        "rating": 4.4,
+        "description": "Lüks ve konforlu odalar sunan özel bir otel.",
+        "room_images": [
+            "https://zhabercomtr.teimg.com/crop/1280x720/zhaber-com-tr/uploads/2023/02/otel-fiyatlari-mugla-bodrum.jpg",
+            "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+        ],
+        "contact_information": {
+            "phone": "+90 555 987 65 43",
+            "email": "info@yeniornekotel7.com"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Yeni Örnek Otel 8",
+        "city": "Antalya",
+        "district": "Alanya",
+        "room_prices": {
+            "standard": 175,
+            "deluxe": 265,
+            "suite": 410
+        },
+        "room_availability": {
+            "standard": 10,
+            "deluxe": 6,
+            "suite": 3
+        },
+        "amenities": [
+            "Ücretsiz Wi-Fi",
+            "Spa",
+            "Restoran"
+        ],
+        "rating": 4.5,
+        "description": "Huzurlu ve şık odalar sunan özel bir otel.",
+        "room_images": [
+            "https://zhabercomtr.teimg.com/crop/1280x720/zhaber-com-tr/uploads/2023/02/otel-fiyatlari-antalya-alanya.jpg",
+            "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+        ],
+        "contact_information": {
+            "phone": "+90 555 987 65 43",
+            "email": "info@yeniornekotel8.com"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Yeni Örnek Otel 9",
+        "city": "Antalya",
+        "district": "Belek",
+        "room_prices": {
+            "standard": 160,
+            "deluxe": 250,
+            "suite": 400
+        },
+        "room_availability": {
+            "standard": 12,
+            "deluxe": 5,
+            "suite": 2
+        },
+        "amenities": [
+            "Ücretsiz Wi-Fi",
+            "Spa",
+            "Restoran"
+        ],
+        "rating": 4.3,
+        "description": "Modern ve konforlu odalar sunan özel bir otel.",
+        "room_images": [
+            "https://zhabercomtr.teimg.com/crop/1280x720/zhaber-com-tr/uploads/2023/02/otel-fiyatlari-antalya-belek.jpg",
+            "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+        ],
+        "contact_information": {
+            "phone": "+90 555 987 65 43",
+            "email": "info@yeniornekotel9.com"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Yeni Örnek Otel 10",
+        "city": "Antalya",
+        "district": "Konyaaltı",
+        "room_prices": {
+            "standard": 170,
+            "deluxe": 260,
+            "suite": 420
+        },
+        "room_availability": {
+            "standard": 11,
+            "deluxe": 6,
+            "suite": 3
+        },
+        "amenities": [
+            "Ücretsiz Wi-Fi",
+            "Spa",
+            "Restoran"
+        ],
+        "rating": 4.4,
+        "description": "Şehir merkezine yakın ve konforlu odalar sunan özel bir otel.",
+        "room_images": [
+            "https://zhabercomtr.teimg.com/crop/1280x720/zhaber-com-tr/uploads/2023/02/otel-fiyatlari-antalya-konyaalti.jpg",
+            "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+            "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+        ],
+        "contact_information": {
+            "phone": "+90 555 987 65 43",
+            "email": "info@yeniornekotel10.com"
+        }
+    }
+]

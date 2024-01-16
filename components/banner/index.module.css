@@ -1,0 +1,31 @@
+.bannerContainer {
+  @apply w-full min-h-[45vh]
+  flex flex-col items-center
+  relative py-4
+}
+
+.bannerContainer img {
+  @apply w-full h-full absolute top-0 left-0 z-[1]
+  object-cover
+}
+
+.gradient {
+  @apply w-full h-full 
+  absolute top-0 left-0 z-[2]
+  bg-gradient-to-t from-transparent to-gray-200
+}
+
+.bannerContent {
+  @apply w-full max-w-5xl
+  px-4 mt-28
+  flex flex-col justify-center items-center
+  relative z-[3]
+}
+
+.bannerContent h1 {
+  @apply text-2xl font-semibold  
+}
+
+.bannerContent p {
+  @apply text-sm pt-2
+}

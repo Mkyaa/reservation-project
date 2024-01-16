@@ -1,0 +1,86 @@
+.whyUsContainer {
+  @apply w-full 
+    flex flex-col items-center
+    bg-gray-50 pb-10
+}
+
+.whyUsTitle {
+  @apply  text-2xl font-semibold mb-8 mt-10 
+}
+
+.whyUsContent {
+  @apply w-full max-w-5xl flex flex-col px-4
+}
+
+.whyUsCardContainer {
+  @apply w-full mt-10 gap-3
+  flex justify-between flex-wrap
+}
+
+.whyUsCard {
+  @apply w-full sm:w-[48%] md:w-[23%] flex flex-col items-center 
+  bg-white shadow-xl
+}
+
+.whyUsIcon {
+    @apply w-14 h-14 rounded-full 
+    flex items-center justify-center
+    mt-4
+    }
+  
+
+.card_1{
+    @apply border-b-4 border-solid border-blue-500
+}
+
+.card_1>div{
+    @apply bg-blue-100
+}
+
+.card_1>div svg{
+    @apply w-8 h-8 text-blue-500
+}
+
+.card_2{
+    @apply border-b-4 border-solid border-red-500
+}
+
+.card_2>div{
+    @apply bg-red-100
+}
+
+.card_2>div svg{
+    @apply w-8 h-8 text-red-500
+}
+
+.card_3{
+    @apply border-b-4 border-solid border-yellow-500
+}
+
+.card_3>div{
+    @apply bg-yellow-100
+}
+
+.card_3>div svg{
+    @apply w-8 h-8 text-yellow-500
+}
+
+.card_4{
+    @apply border-b-4 border-solid border-purple-500
+}
+
+.card_4>div{
+    @apply bg-purple-100
+}
+
+.card_4>div svg{
+    @apply w-8 h-8 text-purple-500
+}
+
+.whyUsCard h3{
+    @apply font-semibold mt-4 mb-2
+}
+
+.whyUsCard p{
+    @apply text-xs mb-8 text-center text-gray-500
+}

@@ -1,0 +1,1015 @@
+{
+  "users": [
+    {
+      "id": "b957",
+      "name": {
+        "name": "Rıdvan",
+        "surname": "Ciga",
+        "email": "kciga@kplus.com.tr",
+        "password": "123123",
+        "kvkk": true,
+        "actions": {
+          "my_tickets": [
+            {
+              "id": "1",
+              "type": "flight",
+              "from": "İstanbul",
+              "to": "İzmir",
+              "company": "Pegasus",
+              "departure": "2024-02-01T10:00:00",
+              "arrival": "2024-02-01T11:00:00",
+              "flight_class": "Economy",
+              "passenger": "3",
+              "price": 150,
+              "status": "active"
+            },
+            {
+              "id": "2",
+              "type": "flight",
+              "from": "İstanbul",
+              "to": "Antalya",
+              "company": "Turkish Airlines",
+              "departure": "2024-01-01T12:00:00",
+              "arrival": "2024-01-01T13:00:00",
+              "flight_class": "Business",
+              "passenger": "2",
+              "price": 180,
+              "status": "passive"
+            },
+            {
+              "id": "3",
+              "type": "bus",
+              "from": "İstanbul",
+              "to": "İzmir",
+              "company": "Metro Turizm",
+              "departure": "2024-02-01T14:00:00",
+              "arrival": "2024-02-01T15:00:00",
+              "passenger": "1",
+              "price": 200,
+              "status": "active"
+            }
+        ],
+        "my_reservations": [
+          {
+            "id": "1",
+            "type": "hotel",
+            "name": "Yeni Örnek Otel",
+            "city": "İzmir",
+            "district": "Alsancak",
+            "room_type": "standard",
+            "check_in": "2024-02-01T14:00:00",
+            "check_out": "2024-02-04T12:00:00",
+            "price": 180,
+            "total_price": 540,
+            "contact_information": {
+              "phone": "+90 555 987 65 43",
+              "email": "info@yeniornekotel.com"
+            },
+            "room_images": [
+              "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+              "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+              "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+            ],
+            "status": "active"
+          },
+          {
+            "id": "2",
+            "type": "hotel",
+            "name": "Yeni Örnek Otel 2",
+            "city": "Muğla",
+            "district": "Fethiye",
+            "room_type": "deluxe",
+            "check_in": "2023-09-21T14:00:00",
+            "check_out": "2023-09-24T12:00:00",
+            "price": 270,
+            "total_price": 810,
+            "contact_information": {
+              "phone": "+90 555 987 65 43",
+              "email": "info@yeniornekotel2.com"
+            },
+            "room_images": [
+              "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+              "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+              "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+            ],
+            "status": "passive"
+          },
+          {
+            "id": "3",
+            "type": "hotel",
+            "name": "Yeni Örnek Otel 2",
+            "city": "Muğla",
+            "district": "Fethiye",
+            "room_type": "deluxe",
+            "check_in": "2023-07-01T14:00:00",
+            "check_out": "2024-07-04T12:00:00",
+            "price": 270,
+            "total_price": 810,
+            "contact_information": {
+              "phone": "+90 555 987 65 43",
+              "email": "info@yeniornekotel2.com"
+            },
+            "room_images": [
+              "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+              "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+              "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+            ],
+            "status": "passive"
+          }
+        ],
+        "my_cancels": [
+          {
+            "id": "1",
+            "type": "hotel",
+            "name": "Yeni Örnek Otel3",
+            "city": "Antalya",
+            "district": "Belek",
+            "room_type": "suite",
+            "check_in": "2024-02-01T14:00:00",
+            "check_out": "2024-02-04T12:00:00",
+            "price": 450,
+            "total_price": 1350,
+            "contact_information": {
+              "phone": "+90 555 987 65 43",
+              "email": "info@yeniornekhotel3.com"
+            },
+            "room_images": [
+              "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+              "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+              "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+            ],
+            "status": "cancelled"
+          },
+          {
+            "id" : "2",
+            "type": "bus",
+            "from": "İstanbul",
+            "to": "İzmir",
+            "company": "Metro Turizm",
+            "departure": "2024-02-01T14:00:00",
+            "arrival": "2024-02-01T15:00:00",
+            "price": 200,
+            "status": "cancelled"
+          }
+        ]
+      }
+    }
+  }
+],
+"blogs": [
+  {
+    "id": "1",
+    "place": "Muğla",
+    "district": "datca",
+    "posts": [
+      {
+        "id": "1",
+        "img": "https://cdn2.enuygun.com/media/lib/1200x675/uploads/image/datca-badem-cicegi-festivali-54591.webp",
+        "title": "Datça Badem Çiçeği Festivali",
+        "content": "Türkiye'nin en bilinen geleneksel festivallerinden biri olan ve her yıl şubat ayının ilk haftasında düzenlenen Datça Badem Çiçeği Festivali, binlerce insanı kendine çekerek çok ilgi gören bir kültür ve sanat etkinliği. Ülkemizin badem üretiminin %10'unu tek başına karşılayan Datça'nın dünyanın her yerine ihraç edilen ünlü bademlerini tanıtmayı amaçlayan Datça Badem Çiçeği Festivali, Datça'nın en önemli geçim kaynaklarından biri olan badem çiçeklerinin açtığı dönemde, bölgenin doğal güzelliklerini ve kültürel değerlerini tanıtmak amacıyla düzenleniyor."
+      },
+      {
+        "id": "2",
+        "img": "https://assets.enuygun.com/media/lib/825x620/uploads/image/datca-badem-cicegi-festivali-54595.webp",
+        "title": "Datça Badem Çiçeği Festivali ne zaman?",
+        "content": "Datça Badem Çiçeği Festivali'nin 2024 şubat ayında gerçekleşiyor. Bu tarihlerde yolunu Datça'ya özellikle düşürmeni, yaz aylarında masmavi denizi ile kendine hayran bırakan Datça'nın doğasının festival zamanı ne kadar farklı olduğunu görmeni isteriz."
+      },
+      {
+        "id": "3",
+        "img": "https://assets.enuygun.com/media/lib/825x620/uploads/image/datca-badem-cicegi-festivali-54596.webp",
+        "title": "Datça Badem Çiçeği Festivali Nasıl Bir Festival?",
+        "content": "Bando ekipleri eşiğinde düzenlenen açılış korteji yürüyüşü ile başlayan Datça Badem Çiçeği Festivali'nde ilçenin her köşesinde yöresel el yapımı ürünlerin yanı sıra bademden yapılmış ürünler ve yerel lezzetlerin sergilendiği standlar kuruluyor. Türkiye'nin birçok önemli sanatçısı ve ünlü grupların konserlerine sahne olan Datça Badem Çiçeği Festivali boyunca taş evler ve begonvillerle süslü Datça sokakları ile etkinlik alanlarında resim, fotoğraf, heykel, seramik, cam sanatı gibi farklı sanat dallarında sergileri inceleyerek de harika zaman geçirebilirsin. Her yaştan insanın çok ilgisini çeken halk oyunları gösterileri, yarışmalar, animasyonlar gibi birbirinden eğlence etkinliklerle de unutulmaz zamanlar geçirebileceğin Datça Badem Çiçeği Festivali'nde yöresel yemekler, el sanatları, müzik, folklör, dans gibi atölye çalışmalarına da katılabilirsin. festival boyunca sanat tutkunları, ülkemizin dört bir yanından gelen tiyatro toplulukları tarafından düzenlenen tiyatro gösterilerini de izleyebilirler. Festivalde rehberlerle düzenlenen doğa yürüyüşleri ve fotoğraf safarilerine katılarak ise Datça Yarımadası'nın en çok ziyaret edilen özel yerleri olan Knidos Antik Kenti, Çubucak Tabiat Parkı, Karia Yolu, Apollon Kutsal Alanı, Kızlan Köyü ile Kızlan Köyü'nü keşfe çıkarak yarımadanın tarihi ve doğal güzelliklerini keşfedebilirsin. Datça'da gezilecek yerler için tam listeyi linkteki yazıda bulabilirsin. Gastronomi meraklılarının çok ilgisini çeken kabak çiçeği dolması, badem köftesi, könger, badem pilavı, bademli incir tatlısı, labada dolması, damak tatlısı ve mürdümük çorbası gibi Datça'nın en sevilen yöresel yemeklerini de tadabileceğin Datça Badem Çiçeği Festivali'nde istersen yemek atölyelerinde organik ürünlerle siz de yöresel yemekleri yapmayı deneyebilirsin."
+      },
+      {
+        "id": "4",
+        "img": "https://assets.enuygun.com/media/lib/825x620/uploads/image/datca-badem-cicegi-festivali-54598.webp",
+        "title": "Festival için Datça'ya nasıl gidilir?",
+        "content": "Datça'ya gitmek için hava ulaşımı kullanmak en kolay yol. Datça uçak bileti için linkten araştırma yapabilir, festival zamanına denk gelecek biletini şimdiden alabilirsin. Datça'ya en yakın havalimanı olan Dalaman Havalimanı'nda indikten sonra Datça'ya gitmek için arabaya ihtiyacın olacak. Araç kiralama ya da transfer hizmeti almanın işini oldukça kolaylaştıracağını hatırlatalım."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "place": "Muğla",
+    "district": "bodrum",
+    "posts": [
+      {
+        "id": "1",
+        "img": "https://traveler.marriott.com/wp-content/uploads/2021/02/GI_1256161189_Aerial_Bodrum.jpg",
+        "title": "Bodrum Kalesi ve Antik Tiyatro",
+        "content": "Muğla iline bağlı Bodrum ilçesi, tarihi zenginlikleriyle ve doğal güzellikleriyle ünlü bir destinasyondur. Bodrum Kalesi, Ege Denizi kıyısında muazzam bir manzaraya hakim bir konumda yer almaktadır. Ziyaretçilere tarihi bir yolculuk sunan bu kale, antik dönemden günümüze uzanan geçmişiyle büyüleyici bir atmosfere sahiptir. Aynı zamanda Bodrum Antik Tiyatrosu, tarihi mirası canlandıran etkileyici bir yapıdır. Antik tiyatro, muhteşem deniz manzarası eşliğinde tarih kokan bir deneyim sunar."
+      },
+      {
+        "id": "2",
+        "img": "https://traveler.marriott.com/wp-content/uploads/2021/02/GI_930780762_Town_Bodrum.jpg",
+        "title": "Bodrum Plajları ve Deniz Turizmi",
+        "content": "Bodrum, sahip olduğu benzersiz plajları ve berrak deniziyle deniz turizmi açısından bir cennettir. Gümbet, Bitez, Akyarlar gibi plajlar, altın kumları ve sakin atmosferleriyle tatilcileri cezbetmektedir. Bodrum'un koyları ve plajları, su altı zenginlikleriyle ünlüdür. Şnorkelle dalış yapabilir, renkli mercanlar ve zengin deniz yaşamıyla tanışabilirsiniz. Ayrıca Bodrum'da düzenlenen deniz turları ile Ege'nin güzelliklerini keşfetme fırsatını yakalayabilirsiniz."
+      },
+      {
+        "id": "3",
+        "img": "https://traveler.marriott.com/wp-content/uploads/2021/02/MI_EDITION-Bodrum-Beach.jpg",
+        "title": "Bodrum'da Gece Hayatı",
+        "content": "Bodrum, gece hayatıyla da ünlüdür. Bodrum Barlar Sokağı ve kale çevresindeki mekanlar, gece eğlencesi için ideal noktalardır. Dünya çapında ünlü DJ'lerin performansları, canlı müzik etkinlikleri ve renkli ışık şovları ile Bodrum gece hayatı, tatilcileri kendine çeker. Barlar, kulüpler ve sahil kenarındaki kafeler, gece boyunca süren eğlenceyi garantiler. Bodrum'da geçirdiğiniz geceler unutulmaz anılar bırakacaktır."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "place": "Muğla",
+    "district": "marmaris",
+    "posts": [
+      {
+        "id": "1",
+        "img": "https://cdn.hellovillam.com/HelloVillam/images/w596/2022-04/marmaris-dogal-guzellikleri_IXH2J80VPBMHYHZK7GKU4D8IP06T8A.jpg",
+        "title": "Marmaris Kalesi ve Tarihi Zenginlikler",
+        "content": "Marmaris, tarihi zenginlikleri ve benzersiz doğal güzellikleriyle bilinen bir destinasyondur. Marmaris Kalesi, tarihi dokusuyla büyüleyici bir atmosfere sahip olan ve Ege Denizi kıyısında yer alan önemli bir yapıdır. Kale içindeki müze, ziyaretçilere bölgenin geçmişi hakkında detaylı bilgiler sunar. Ayrıca Marmaris'in antik kentleri, tarihi dokularıyla adeta birer açık hava müzesini andırır."
+      },
+      {
+        "id": "2",
+        "img": "https://image.hurimg.com/i/hurriyet/75/1110x740/60e778114e3fdf03f05a8c4f.jpg",
+        "title": "Marmaris Akyaka Doğa Yürüyüşleri",
+        "content": "Marmaris'e gelen doğa severler için Akyaka bölgesi, muazzam güzellikteki yürüyüş parkurlarıyla ünlüdür. Akyaka, sakin atmosferi, ormanlık alanları ve tertemiz havasıyla bilinir. Marmaris'te doğa yürüyüşleri yaparak, Akyaka'nın göz kamaştırıcı manzaralarını keşfetmek mümkündür. Her mevsimde farklı bir güzellik sunan doğa yürüyüşleri, ziyaretçilere unutulmaz bir deneyim yaşatır."
+      },
+      {
+        "id": "3",
+        "img": "https://www.tatildekirala.com/blog/wp-content/uploads/2019/03/marmaris-2.jpg",
+        "title": "Marmaris'te Su Sporları ve Plaj Keyfi",
+        "content": "Marmaris, sadece tarihi ve doğal güzellikleriyle değil, aynı zamanda su sporları ve plajlarıyla da ünlüdür. Marmaris koylarında su kayağı, jet-ski, parasailing gibi birçok su sporu aktivitesini deneyimleyebilirsiniz. Marmaris plajları, altın kumları ve berrak sularıyla tatilcileri cezbetmektedir. Güneşin tadını çıkarırken, masmavi denizin keyfini sürmek için Marmaris plajları ideal bir tercihtir."
+      },
+      {
+        "id": "4",
+        "img": "https://ucdn.tatilbudur.net/Otel/855x426/angels-marmaris_439026.jpg",
+        "title": "Marmaris Geceleri: Barlar ve Canlı Müzik Mekanları",
+        "content": "Marmaris geceleri, renkli ve eğlenceli atmosferiyle meşhurdur. Barlar Sokağı ve Marmaris çarşı bölgesinde yer alan canlı müzik mekanları, gece hayatının nabzını tutan önemli noktalardır. Dünya çapında ünlü sanatçıların konserleri, barlardaki eğlenceli atmosfer ve sokak şovlarıyla Marmaris geceleri unutulmaz anılar bırakır. Gecenin ilerleyen saatlerine kadar süren eğlence, tatilcileri kendine çeker."
+      }
+    ]
+  }
+],
+"hotels": [
+  {
+    "id": "1",
+    "name": "Yeni Örnek Otel",
+    "city": "İzmir",
+    "district": "Alsancak",
+    "room_prices": {
+      "standard": 180,
+      "deluxe": 280,
+      "suite": 450
+    },
+    "room_availability": {
+      "standard": 8,
+      "deluxe": 3,
+      "suite": 1
+    },
+    "amenities": [
+      "Ücretsiz Wi-Fi",
+      "Spa",
+      "Restoran",
+      "Havuz"
+    ],
+    "rating": 4.7,
+    "description": "Lüks ve konforlu odalar sunan özel bir otel.",
+    "room_images": [
+      "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+    ],
+    "contact_information": {
+      "phone": "+90 555 987 65 43",
+      "email": "info@yeniornekotel.com"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Yeni Örnek Otel 2",
+    "city": "Muğla",
+    "district": "Fethiye",
+    "room_prices": {
+      "standard": 160,
+      "deluxe": 270,
+      "suite": 420
+    },
+    "room_availability": {
+      "standard": 12,
+      "deluxe": 6,
+      "suite": 3
+    },
+    "amenities": [
+      "Ücretsiz Wi-Fi",
+      "Spa",
+      "Restoran"
+    ],
+    "rating": 4.3,
+    "description": "Modern ve rahat odalar sunan özel bir otel.",
+    "room_images": [
+      "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+    ],
+    "contact_information": {
+      "phone": "+90 555 987 65 43",
+      "email": "info@yeniornekotel2.com"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Yeni Örnek Otel 3",
+    "city": "Antalya",
+    "district": "Belek",
+    "room_prices": {
+      "standard": 170,
+      "deluxe": 260,
+      "suite": 460
+    },
+    "room_availability": {
+      "standard": 9,
+      "deluxe": 4,
+      "suite": 2
+    },
+    "amenities": [
+      "Ücretsiz Wi-Fi",
+      "Spa",
+      "Restoran",
+      "Havuz",
+      "Otopark"
+    ],
+    "rating": 4.6,
+    "description": "Lüks ve huzurlu odalar sunan özel bir otel.",
+    "room_images": [
+      "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+    ],
+    "contact_information": {
+      "phone": "+90 555 987 65 43",
+      "email": "info@yeniornekhotel3.com"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Yeni Örnek Otel 4",
+    "city": "Antalya",
+    "district": "Kaş",
+    "room_prices": {
+      "standard": 155,
+      "deluxe": 265,
+      "suite": 410
+    },
+    "room_availability": {
+      "standard": 11,
+      "deluxe": 5,
+      "suite": 2
+    },
+    "amenities": [
+      "Ücretsiz Wi-Fi",
+      "Spa",
+      "Restoran"
+    ],
+    "rating": 4.4,
+    "description": "Modern ve konforlu odalar sunan özel bir otel.",
+    "room_images": [
+      "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+    ],
+    "contact_information": {
+      "phone": "+90 555 987 65 43",
+      "email": "info@yeniornekhotel4.com"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Yeni Örnek Otel 5",
+    "city": "Antalya",
+    "district": "Turgutreis",
+    "room_prices": {
+      "standard": 175,
+      "deluxe": 255,
+      "suite": 420
+    },
+    "room_availability": {
+      "standard": 10,
+      "deluxe": 6,
+      "suite": 3
+    },
+    "amenities": [
+      "Spa",
+      "Restoran"
+    ],
+    "rating": 4.5,
+    "description": "Huzurlu ve şık odalar sunan özel bir otel.",
+    "room_images": [
+      "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+    ],
+    "contact_information": {
+      "phone": "+90 555 987 65 43",
+      "email": "info@yeniornekhotel5.com"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Yeni Örnek Otel 6",
+    "city": "Antalya",
+    "district": "Kemer",
+    "room_prices": {
+      "standard": 160,
+      "deluxe": 270,
+      "suite": 420
+    },
+    "room_availability": {
+      "standard": 12,
+      "deluxe": 6,
+      "suite": 3
+    },
+    "amenities": [
+      "Ücretsiz Wi-Fi",
+      "Spa"
+    ],
+    "rating": 4.3,
+    "description": "Modern ve rahat odalar sunan özel bir otel.",
+    "room_images": [
+      "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+    ],
+    "contact_information": {
+      "phone": "+90 555 987 65 43",
+      "email": "info@yeniornekotel6.com"
+    }
+  },
+  {
+    "id": "7",
+    "name": "Yeni Örnek Otel 7",
+    "city": "Muğla",
+    "district": "Bodrum",
+    "room_prices": {
+      "standard": 165,
+      "deluxe": 255,
+      "suite": 430
+    },
+    "room_availability": {
+      "standard": 11,
+      "deluxe": 5,
+      "suite": 2
+    },
+    "amenities": [
+      "Spa",
+      "Restoran"
+    ],
+    "rating": 4.4,
+    "description": "Lüks ve konforlu odalar sunan özel bir otel.",
+    "room_images": [
+      "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+    ],
+    "contact_information": {
+      "phone": "+90 555 987 65 43",
+      "email": "info@yeniornekotel7.com"
+    }
+  },
+  {
+    "id": "8",
+    "name": "Yeni Örnek Otel 8",
+    "city": "Antalya",
+    "district": "Alanya",
+    "room_prices": {
+      "standard": 175,
+      "deluxe": 265,
+      "suite": 410
+    },
+    "room_availability": {
+      "standard": 10,
+      "deluxe": 6,
+      "suite": 3
+    },
+    "amenities": [
+      "Ücretsiz Wi-Fi",
+      "Spa",
+      "Restoran"
+    ],
+    "rating": 4.5,
+    "description": "Huzurlu ve şık odalar sunan özel bir otel.",
+    "room_images": [
+      "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+    ],
+    "contact_information": {
+      "phone": "+90 555 987 65 43",
+      "email": "info@yeniornekotel8.com"
+    }
+  },
+  {
+    "id": "9",
+    "name": "Yeni Örnek Otel 9",
+    "city": "Antalya",
+    "district": "Belek",
+    "room_prices": {
+      "standard": 160,
+      "deluxe": 250,
+      "suite": 400
+    },
+    "room_availability": {
+      "standard": 12,
+      "deluxe": 5,
+      "suite": 2
+    },
+    "amenities": [
+      "Ücretsiz Wi-Fi",
+      "Spa",
+      "Restoran"
+    ],
+    "rating": 4.3,
+    "description": "Modern ve konforlu odalar sunan özel bir otel.",
+    "room_images": [
+      "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+    ],
+    "contact_information": {
+      "phone": "+90 555 987 65 43",
+      "email": "info@yeniornekotel9.com"
+    }
+  },
+  {
+    "id": "10",
+    "name": "Yeni Örnek Otel 10",
+    "city": "Antalya",
+    "district": "Konyaaltı",
+    "room_prices": {
+      "standard": 170,
+      "deluxe": 260,
+      "suite": 490
+    },
+    "room_availability": {
+      "standard": 11,
+      "deluxe": 6,
+      "suite": 3
+    },
+    "amenities": [
+      "Ücretsiz Wi-Fi",
+      "Spa",
+      "Restoran"
+    ],
+    "rating": 4.4,
+    "description": "Şehir merkezine yakın ve konforlu odalar sunan özel bir otel.",
+    "room_images": [
+      "https://www.turizmgunlugu.com/wp-content/uploads/2018/01/saphir-otel-696x414.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/70e5970a-3247-45fe-a188-6b9f677b7a0e-1024.jpg",
+      "https://cdng.jollytur.com/files/cms/media/hotel/dc8ae765-dc6e-44a4-8013-1ded3c0d0253-1024.jpg"
+    ],
+    "contact_information": {
+      "phone": "+90 555 987 65 43",
+      "email": "info@yeniornekotel10.com"
+    }
+  }
+],
+"flights": [
+  {
+    "id": "1",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "İzmir Adnan Menderes",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T10:00:00",
+    "arrival": "2024-02-01T11:20:00",
+    "flight_class": "Economy",
+    "fly_duration": "1sa 20dk",
+    "transfer": "Direkt",
+    "price": 150,
+    "availability": 10
+  },
+  {
+    "id": "2",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "İzmir Adnan Menderes",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T12:00:00",
+    "arrival": "2024-02-01T13:00:00",
+    "flight_class": "Economy",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 180,
+    "availability": 10
+  },
+  {
+    "id": "3",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "İzmir Adnan Menderes",
+    "company": "Pegasus",
+    "departure": "2024-02-01T14:00:00",
+    "arrival": "2024-02-01T15:00:00",
+    "flight_class": "Economy",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 200,
+    "availability": 10
+  },
+  {
+    "id": "4",
+    "from": "İstanbul Havalimanı",
+    "to": "İzmir Adnan Menderes",
+    "departure": "2024-02-01T16:00:00",
+    "arrival": "2024-02-01T17:00:00",
+    "flight_class": "Economy",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 220,
+    "availability": 10
+  },
+  {
+    "id": "5",
+    "from": "İstanbul Havalimanı",
+    "to": "İzmir Adnan Menderes",
+    "company": "Pegasus",
+    "departure": "2024-02-01T18:00:00",
+    "arrival": "2024-02-01T19:00:00",
+    "flight_class": "Business",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 250,
+    "availability": 10
+  },
+  {
+    "id": "6",
+    "from": "İstanbul Havalimanı",
+    "to": "İzmir Adnan Menderes",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T18:30:00",
+    "arrival": "2024-02-01T21:00:00",
+    "flight_class": "Business",
+    "fly_duration": "2sa 30dk",
+    "transfer": "1 Aktarma",
+    "price": 300,
+    "availability": 10
+  },
+  {
+    "id": "7",
+    "from": "İstanbul Havalimanı",
+    "to": "İzmir Adnan Menderes",
+    "company": "Pegasus",
+    "departure": "2024-02-01T18:00:00",
+    "arrival": "2024-02-01T23:00:00",
+    "flight_class": "Business",
+    "fly_duration": "5sa",
+    "transfer": "2 Aktarma",
+    "price": 350,
+    "availability": 10
+  },
+  {
+    "id": "8",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "İzmir Adnan Menderes",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T00:00:00",
+    "arrival": "2024-02-01T09:00:00",
+    "flight_class": "First Class",
+    "fly_duration": "9sa",
+    "transfer": "3 Aktarma",
+    "price": 400,
+    "availability": 10
+  },
+  {
+    "id": "9",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "Antalya Havalimanı",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T10:00:00",
+    "arrival": "2024-02-01T11:00:00",
+    "flight_class": "Economy",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 150,
+    "availability": 10
+  },
+  {
+    "id": "10",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "Antalya Havalimanı",
+    "company": "Pegasus",
+    "departure": "2024-02-01T12:00:00",
+    "arrival": "2024-02-01T13:00:00",
+    "flight_class": "Economy",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 180,
+    "availability": 10
+  },
+  {
+    "id": "11",
+    "from": "İstanbul Havalimanı",
+    "to": "Antalya Havalimanı",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T14:00:00",
+    "arrival": "2024-02-01T15:00:00",
+    "flight_class": "Business",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 200,
+    "availability": 10
+  },
+  {
+    "id": "12",
+    "from": "İstanbul Havalimanı",
+    "to": "Antalya Havalimanı",
+    "company": "Pegasus",
+    "departure": "2024-02-01T16:00:00",
+    "arrival": "2024-02-01T17:00:00",
+    "flight_class": "Business",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 220,
+    "availability": 10
+  },
+  {
+    "id": "13",
+    "from": "İstanbul Havalimanı",
+    "to": "Antalya Havalimanı",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T18:00:00",
+    "arrival": "2024-02-01T19:00:00",
+    "flight_class": "Business",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 250,
+    "availability": 10
+  },
+  {
+    "id": "14",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "Antalya Havalimanı",
+    "company": "Pegasus",
+    "departure": "2024-02-01T20:00:00",
+    "arrival": "2024-02-01T21:00:00",
+    "flight_class": "First Class",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 300,
+    "availability": 10
+  },
+  {
+    "id": "15",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "Antalya Havalimanı",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T22:00:00",
+    "arrival": "2024-02-01T23:00:00",
+    "flight_class": "First Class",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 350,
+    "availability": 10
+  },
+  {
+    "id": "16",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "Dalaman Havalimanı",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T00:00:00",
+    "arrival": "2024-02-01T01:00:00",
+    "flight_class": "Economy",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 400,
+    "availability": 10
+  },
+  {
+    "id": "17",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "Dalaman Havalimanı",
+    "company": "Pegasus",
+    "departure": "2024-02-01T10:00:00",
+    "arrival": "2024-02-01T12:50:00",
+    "flight_class": "Economy",
+    "fly_duration": "2sa 50dk",
+    "transfer": "1 Aktarma",
+    "price": 150,
+    "availability": 10
+  },
+  {
+    "id": "18",
+    "from": "İstanbul Havalimanı",
+    "to": "Dalaman Havalimanı",
+    "departure": "2024-02-01T12:00:00",
+    "arrival": "2024-02-02T13:00:00",
+    "flight_class": "Economy",
+    "fly_duration": "25sa",
+    "transfer": "5 Aktarma",
+    "price": 180,
+    "availability": 10
+  },
+  {
+    "id": "19",
+    "from": "İstanbul Havalimanı",
+    "to": "Dalaman Havalimanı",
+    "company": "Pegasus",
+    "departure": "2024-02-01T14:00:00",
+    "arrival": "2024-02-01T15:00:00",
+    "flight_class": "Business",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 200,
+    "availability": 10
+  },
+  {
+    "id": "20",
+    "from": "İstanbul Havalimanı",
+    "to": "Dalaman Havalimanı",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T16:00:00",
+    "arrival": "2024-02-01T17:00:00",
+    "flight_class": "Business",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 220,
+    "availability": 10
+  },
+  {
+    "id": "21",
+    "from": "İstanbul Havalimanı",
+    "to": "Dalaman Havalimanı",
+    "company": "Pegasus",
+    "departure": "2024-02-01T18:00:00",
+    "arrival": "2024-02-01T19:00:00",
+    "flight_class": "Business",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 250,
+    "availability": 10
+  },
+  {
+    "id": "22",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "Dalaman Havalimanı",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T16:20:00",
+    "arrival": "2024-02-01T21:00:00",
+    "flight_class": "Business",
+    "fly_duration": "4sa 40dk",
+    "transfer": "2 Aktarma",
+    "price": 300,
+    "availability": 10
+  },
+  {
+    "id": "23",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "Ankara Esenboğa Havalimanı",
+    "company": "Pegasus",
+    "departure": "2024-02-01T22:00:00",
+    "arrival": "2024-02-01T23:00:00",
+    "flight_class": "Economy",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 350,
+    "availability": 10
+  },
+  {
+    "id": "24",
+    "from": "İstanbul Havalimanı",
+    "to": "Ankara Esenboğa Havalimanı",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T00:00:00",
+    "arrival": "2024-02-01T01:00:00",
+    "flight_class": "Business",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 400,
+    "availability": 10
+  },
+  {
+    "id": "25",
+    "from": "İstanbul Havalimanı",
+    "to": "Ankara Esenboğa Havalimanı",
+    "company": "Pegasus",
+    "departure": "2024-02-01T10:00:00",
+    "arrival": "2024-02-01T11:50:00",
+    "flight_class": "Economy",
+    "fly_duration": "1sa 50dk",
+    "transfer": "1 Aktarma",
+    "price": 150,
+    "availability": 10
+  },
+  {
+    "id": "26",
+    "from": "İstanbul Havalimanı",
+    "to": "Ankara Esenboğa Havalimanı",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T12:00:00",
+    "arrival": "2024-02-01T13:00:00",
+    "flight_class": "Economy",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 180,
+    "availability": 10
+  },
+  {
+    "id": "27",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "Ankara Esenboğa Havalimanı",
+    "company": "Pegasus",
+    "departure": "2024-02-01T14:00:00",
+    "arrival": "2024-02-01T15:00:00",
+    "flight_class": "Business",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 200,
+    "availability": 10
+  },
+  {
+    "id": "28",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "Ankara Esenboğa Havalimanı",
+    "company": "Turkish Airlines",
+    "departure": "2024-02-01T16:00:00",
+    "flight_class": "First Class",
+    "arrival": "2024-02-01T17:00:00",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 220,
+    "availability": 10
+  },
+  {
+    "id": "29",
+    "from": "İstanbul Sabiha Gökçen Havalimanı",
+    "to": "Ankara Esenboğa Havalimanı",
+    "company": "Pegasus",
+    "departure": "2024-02-01T18:00:00",
+    "arrival": "2024-02-01T19:00:00",
+    "flight_class": "First Class",
+    "fly_duration": "1sa",
+    "transfer": "Direkt",
+    "price": 250,
+    "availability": 10
+  }
+],
+"buses":[
+  {
+    "id": "1",
+    "from": "İstanbul",
+    "to": "İzmir",
+    "company": "Metro Turizm",
+    "departure": "2024-02-01T10:00:00",
+    "arrival": "2024-02-01T18:00:00",
+    "bus_duration": "8sa",
+    "price": 150,
+    "availability": 10
+  },
+  {
+    "id": "2",
+    "from": "İstanbul",
+    "to": "İzmir",
+    "company": "Ulusoy Turizm",
+    "departure": "2024-02-01T09:30:00",
+    "arrival": "2024-02-01T17:30:00",
+    "bus_duration": "8sa",
+    "price": 120,
+    "availability": 15
+  },
+  {
+    "id": "3",
+    "from": "İstanbul",
+    "to": "İzmir",
+    "company": "Varan Turizm",
+    "departure": "2024-02-01T11:15:00",
+    "arrival": "2024-02-01T19:15:00",
+    "bus_duration": "8sa",
+    "price": 140,
+    "availability": 8
+  },
+  {
+    "id": "4",
+    "from": "İstanbul",
+    "to": "İzmir",
+    "company": "Pamukkale Turizm",
+    "departure": "2024-02-01T12:00:00",
+    "arrival": "2024-02-01T20:00:00",
+    "bus_duration": "8sa",
+    "price": 160,
+    "availability": 12
+  },
+  {
+    "id": "5",
+    "from": "İstanbul",
+    "to": "İzmir",
+    "company": "Kamil Koç",
+    "departure": "2024-02-01T14:30:00",
+    "arrival": "2024-02-01T22:30:00",
+    "bus_duration": "8sa",
+    "price": 130,
+    "availability": 20
+  },
+  {
+    "id": "6",
+    "from": "İstanbul",
+    "to": "İzmir",
+    "company": "Süha Turizm",
+    "departure": "2024-02-01T08:45:00",
+    "arrival": "2024-02-01T16:45:00",
+    "bus_duration": "8sa",
+    "price": 155,
+    "availability": 18
+  }
+]
+}

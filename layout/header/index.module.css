@@ -1,0 +1,125 @@
+.headerContainer {
+    @apply w-full h-20 
+    fixed z-50 top-0 left-0
+    flex flex-col
+    transition-colors duration-500 ease-in-out
+}
+
+.headerBackground{
+    @apply bg-white  shadow-md
+}
+
+.headerTop {
+    @apply  invisible sm:visible 
+    w-full h-4 pr-8
+    flex flex-row justify-end
+    text-gray-500 text-xs
+    gap-4 pt-1
+} 
+
+.telephoneBox {
+    @apply flex gap-2 cursor-pointer
+    hover:text-black
+}
+
+.emailBox {
+    @apply flex gap-2 cursor-pointer
+    hover:text-black
+}
+
+.headerBottom {
+    @apply w-full h-16 relative
+    flex items-center justify-around
+}
+
+.headerLogo {
+    @apply w-32 h-32
+    rounded-full mt-16
+    flex flex-col items-center justify-center
+    transition-colors duration-500 ease-in-out
+}
+
+.headerLogo h1 {
+    @apply font-coveat text-5xl font-bold
+}
+
+.headerLogo h2 {
+    @apply text-sm text-gray-500
+}
+
+.loginBox {
+    @apply invisible sm:visible 
+    flex flex-col gap-2
+    text-gray-800 
+    hover:text-black
+    cursor-pointer
+}
+
+.authBox {
+    @apply flex gap-4 
+}
+
+.mobileMenuIcon {
+    @apply visible sm:invisible 
+    absolute right-5 top-3 
+    text-4xl text-gray-500
+    cursor-pointer
+}
+
+.mobileMenuIcon:hover {
+    @apply text-black
+}
+
+
+.mobileMenuActive {
+    @apply visible sm:invisible 
+    fixed top-0 left-0
+    w-full h-screen
+    bg-white z-50
+    flex flex-col items-center justify-center
+    transition-colors duration-500 ease-in-out
+}
+
+.mobileMenu{
+    @apply hidden
+}
+
+.mobileMenuContainer {
+    @apply w-full h-full
+    relative 
+    flex flex-col items-center justify-center
+    gap-10
+    z-[51]
+} 
+
+.mobileMenuList{
+    @apply w-full
+}
+
+.mobileMenuCloseIcon {
+    @apply absolute right-8 top-8 
+    text-4xl text-gray-500
+    cursor-pointer
+}
+
+.mobileLoginBox {
+    @apply flex flex-col items-center justify-center
+    mt-6  
+    gap-2
+}
+
+.mobileLoginBox a, .mobileLoginBox button {
+    @apply  text-gray-500
+    text-4xl
+}
+
+.authMobileBox {
+    @apply flex flex-col items-center justify-center
+    gap-2
+}
+
+.authMobileBox a, .authMobileBox button {
+    @apply  text-gray-500
+    text-4xl
+}
+

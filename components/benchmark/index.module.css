@@ -1,0 +1,22 @@
+.benchmarkContainer{
+    @apply w-full bg-[#e8eeff] 
+    flex justify-center items-center 
+    py-10 px-4 mt-10
+}
+
+.benchmarkContent{
+    @apply w-full max-w-5xl flex justify-between gap-4 flex-wrap
+}
+
+.benchmarkItem{
+    @apply w-full md:w-[45%] 
+    flex flex-col 
+}
+
+.benchmarkItemTitle{
+    @apply w-full h-auto sm:h-20 lg:h-14 text-2xl font-semibold mb-4
+}
+
+.benchmarkItemValue{
+    @apply w-full text-sm text-justify text-gray-600
+}

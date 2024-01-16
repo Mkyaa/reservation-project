@@ -1,0 +1,60 @@
+.signupContainer{
+    @apply w-full min-h-[70dvh] 
+    flex justify-center items-center
+     mt-40 px-4;
+}
+
+.signupContent{
+    @apply w-full max-w-xl p-4 sm:p-10 
+    border border-solid border-gray-200 rounded-lg
+    flex flex-col gap-4;
+}
+
+.signupTitle{
+    @apply text-2xl font-semibold text-center my-5
+}
+
+.formGroup{
+    @apply flex flex-col gap-2;
+}
+
+.formGroup label{
+    @apply text-gray-600 font-medium text-sm
+}
+
+.formGroup input{
+    @apply w-full h-12 px-4 
+    border border-solid border-gray-300 
+}
+
+.formGroup button{
+    @apply w-full h-12 mt-4
+    bg-black text-white font-medium
+    hover:bg-gray-800
+}
+
+.checkboxGroup{
+    @apply flex items-center
+}
+
+.checkboxGroup label{
+    @apply flex 
+}
+
+.checkboxGroup label p{
+    @apply text-black cursor-pointer
+}
+
+.errorMessage{
+    @apply text-red-500 text-xs
+}
+
+.loginLink{
+    @apply text-center text-gray-600 text-sm
+}
+
+.loginLink a{
+    @apply text-black font-medium ml-1
+    hover:text-gray-800
+}
+

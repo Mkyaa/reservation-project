@@ -1,0 +1,112 @@
+.reservationItem {
+  @apply w-full flex flex-col sm:flex-row
+  gap-2 rounded-md p-3 sm:p-8
+  bg-white shadow-md
+  overflow-hidden
+}
+
+.reservationImage {
+  @apply w-full sm:w-1/4 h-32;
+}
+
+.reservationImage img {
+  @apply w-full h-32 object-cover;
+}
+
+.reservationInfo {
+  @apply w-full h-full 
+  flex flex-col sm:flex-row justify-between
+  gap-2 px-2 py-1
+}
+
+.reservationInfoHeader {
+  @apply flex flex-col justify-between items-center text-center
+}
+
+.reservationInfoHeaderTop p {
+  @apply text-xs text-gray-500
+}
+
+.reservationInfoHeaderTop h2 {
+  @apply text-2xl font-medium text-[#021141]
+}
+
+.reservationInfoHeaderBottom {
+  @apply flex flex-col 
+}
+
+.reservationInfoHeaderBottomTop {
+  @apply flex gap-2 mt-3 items-center
+}
+
+.reservationInfoHeaderBottomBottom{
+  @apply flex gap-2 mt-1 items-center
+}
+
+.reservationInfoHeaderBottom p {
+  @apply text-xs text-gray-500
+}
+
+.reservationInfoHeaderBottom span {
+  @apply text-sm font-medium text-[#021141]
+}
+
+.reservationInfoContent {
+  @apply flex flex-col justify-between my-5 sm:my-0 
+  text-center sm:text-left
+}
+
+.reservationInfoContentLeft{
+  @apply flex flex-col gap-1
+}
+
+.reservationInfoContent p {
+  @apply text-xs text-gray-500 text-center
+}
+
+.reservationInfoContent h3 {
+  @apply font-medium text-[#021141]
+}
+
+.reservationInfoFooter{
+  @apply flex flex-col items-center justify-between text-center 
+}
+
+.reservationInfoFooterBottom {
+  @apply flex flex-col gap-2 mt-1 items-center
+}
+
+.reservationInfoFooter p {
+  @apply text-xs text-gray-500
+}
+
+.reservationInfoFooter h3 {
+  @apply sm:text-3xl text-4xl  font-medium text-[#021141]
+}
+
+.reservationInfoFooterTop .active{
+  @apply w-24 h-8
+  flex justify-center items-center
+  bg-green-100 text-green-600 
+  rounded-md text-sm font-semibold
+}
+
+.reservationInfoFooterTop .passive{
+  @apply w-24 h-8
+  flex justify-center items-center
+  bg-gray-100 text-gray-600 
+  rounded-md text-sm font-semibold
+}
+
+.reservationInfoFooterTop .cancelled{
+  @apply w-24 h-8
+  flex justify-center items-center
+  bg-red-100 text-red-600 
+  rounded-md text-sm font-semibold
+}
+
+.cancelButton {
+  @apply text-sm font-semibold
+  text-red-600 hover:text-red-500
+  cursor-pointer
+}

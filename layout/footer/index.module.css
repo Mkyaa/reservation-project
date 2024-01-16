@@ -1,0 +1,49 @@
+.footerContainer {
+   @apply w-full bg-white 
+    flex flex-col items-center justify-center
+    py-4 px-4
+}
+
+.footerContent {
+   @apply w-full max-w-5xl 
+    flex flex-col
+    mt-10 pt-10 pb-2
+    border-t border-gray-200 border-solid
+    text-sm text-gray-500
+}
+
+.footerTop {
+   @apply w-full mb-4
+   flex justify-between flex-col sm:flex-row
+}
+
+.footerTopLeft {
+   @apply w-full sm:w-1/2 px-4 pb-5 sm:pb-0
+   flex flex-col gap-2
+}
+
+.footerLeftGroup {
+   @apply flex
+}
+
+.footerLeftGroup svg {
+   @apply text-lg mr-2
+}
+
+.footerTopRight {
+   @apply w-full sm:w-1/2 pl-4 pt-5 sm:pt-0
+   border-t sm:border-t-0 sm:border-l border-gray-200 border-solid
+}
+
+.footerRightGroup {
+   @apply flex sm:flex-col sm:items-end justify-between
+   gap-2
+}
+
+.footerRightGroup a {
+   @apply  hover:text-gray-900
+}
+
+.footerBottom {
+   @apply w-full text-xs mt-10 text-center
+}

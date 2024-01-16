@@ -1,0 +1,81 @@
+
+.ticketItem{
+    @apply w-full h-auto p-4 gap-8
+    flex flex-col
+    border border-solid border-gray-200 rounded-md
+    bg-gray-50
+  }
+  
+  .ticketItemContent{
+    @apply w-full flex sm:flex-row flex-col-reverse gap-4
+    justify-between items-center
+  }
+  
+  .ticketItemFooter{
+    @apply w-full flex
+    justify-between items-center
+  }
+  
+  .ticketItemContentLeft{
+    @apply flex items-center gap-3 sm:pl-8
+    text-[#021141] text-xl
+  }
+  
+  .ticketItemContentRight .active{
+    @apply w-24 h-8
+    flex justify-center items-center
+    bg-green-100 text-green-600 
+    rounded-md text-sm font-semibold
+  }
+  
+  .ticketItemContentRight .passive{
+    @apply w-24 h-8
+    flex justify-center items-center
+    bg-gray-100 text-gray-600 
+    rounded-md text-sm font-semibold
+  }
+
+  .ticketItemContentRight .cancelled{
+    @apply w-24 h-8
+    flex justify-center items-center
+    bg-red-100 text-red-600 
+    rounded-md text-sm font-semibold
+  }
+  
+  .ticketItemFooter{
+    @apply flex sm:flex-row flex-col justify-between items-center
+    mt-5
+  }
+  
+  .ticketItemFooterLeft{
+    @apply flex items-center gap-6
+  }
+  
+  .ticketItemFooterLeftContent{
+    @apply flex flex-col gap-1
+  }
+  
+  .ticketItemFooterLeftContent h3{
+    @apply text-sm text-gray-400 font-semibold
+  }
+  
+  .ticketItemFooterLeftContent p{
+    @apply text-sm text-gray-600
+  }
+  
+  .ticketItemFooterRight{
+    @apply flex flex-col items-center 
+    sm:text-3xl text-4xl pt-4 text-[#021141]
+  }
+
+  .ticketItemFooterRight span{
+    @apply text-sm text-gray-400
+  }
+
+  .ticketItemFooterRight button{
+    @apply text-sm text-red-600 mt-3
+  }
+  
+  .ticketItemMiddle{
+    @apply text-2xl text-blue-800 text-center
+  }

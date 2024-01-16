@@ -1,0 +1,32 @@
+.tabGroupContainer{
+    @apply w-full 
+    flex flex-col justify-center items-center 
+}
+
+.tabGroup{
+    @apply w-full max-w-md
+    flex justify-evenly sm:justify-between flex-wrap 
+    z-10 gap-2 
+}
+
+.tab {
+    @apply sm:w-auto w-5/12
+    flex justify-center items-center
+    px-4 py-2
+    rounded-full cursor-pointer
+    transition-all duration-300
+    hover:bg-white hover:text-black
+    text-xs md:text-base 
+}
+
+.tabButton {
+    @apply flex justify-center items-center
+    rounded-full cursor-pointer
+    gap-2
+    transition-all duration-300
+    hover:bg-white hover:text-black
+}
+
+.active {
+    @apply bg-white text-black
+}

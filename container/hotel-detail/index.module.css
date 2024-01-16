@@ -1,0 +1,94 @@
+.hotelDetailContainer {
+  @apply w-full h-full min-h-[70dvh]
+      flex justify-center;
+}
+
+.hotelDetailContent {
+  @apply w-full max-w-5xl h-full 
+      flex flex-col
+        mt-32 px-5
+}
+
+.hotelDetailPath {
+  @apply w-full h-full 
+  flex flex-col md:flex-row
+  md:gap-4
+}
+
+.hotelDetailCarousel {
+  @apply w-full md:w-1/2 flex flex-col;
+}
+
+.hotelDetailCarousel div {
+  @apply w-full h-full;
+}
+
+.hotelDetailCarousel img {
+  @apply w-full min-h-full object-cover;
+}
+
+.hotelDetailPathText {
+  @apply w-full flex flex-col;
+}
+
+.hotelDetailPathTextTitle {
+  @apply w-full flex flex-col;
+}
+
+.hotelDetailPathTextTitle p {
+  @apply text-sm font-semibold italic text-gray-500;
+}
+
+.hotelDetailPathTextTitle h1 {
+  @apply text-3xl font-medium text-gray-700
+  tracking-wider;
+}
+
+.hotelDetailPathTextRating {
+  @apply w-full flex gap-2;
+}
+
+.hotelDetailPathTextRating p {
+  @apply text-sm font-semibold text-gray-500;
+}
+
+.hotelDetailPathDescription {
+  @apply w-full flex flex-col mt-5 gap-10;
+}
+
+.hotelDetailPathDescription p {
+  @apply text-sm font-semibold text-gray-500;
+}
+
+.hotelDetailPathDescription span {
+  @apply text-sm font-semibold text-gray-500;
+}
+
+.hotelDetailPathPrice {
+  @apply w-full flex mt-5 gap-10;
+}
+
+.hotelDetailPathPriceBox {
+  @apply p-5 flex flex-col
+    border border-solid border-gray-200;
+}
+
+.hotelDetailPathPriceBox p {
+  @apply text-sm font-semibold text-gray-500;
+}
+
+.hotelDetailPathPriceBox span {
+  @apply text-2xl font-semibold text-gray-700;
+}
+
+.hotelDetailContact {
+  @apply w-full flex flex-col mt-5;
+}
+
+.hotelDetailContact h4 {
+  @apply text-sm font-semibold text-gray-800;
+}
+
+.hotelDetailContact p {
+  @apply text-sm font-semibold text-gray-500;
+}

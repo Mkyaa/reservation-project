@@ -1,0 +1,4 @@
+.flightContainer {
+  @apply w-full min-h-screen h-full
+  flex flex-col;
+}

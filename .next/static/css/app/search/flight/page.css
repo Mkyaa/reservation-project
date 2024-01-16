@@ -1,0 +1,582 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./components/loader/index.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.loader_loaderContainer__w8Hum {
+
+    position: fixed;
+
+    top: 0px;
+
+    left: 0px;
+
+    z-index: 50;
+
+    display: flex;
+
+    height: 100vh;
+
+    width: 100vw;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity))
+}
+
+.loader_loaderContent__yNWhQ {
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center
+}
+
+.loader_loaderIcon__32HDZ {
+
+    position: absolute;
+
+    top: 2.5rem;
+
+    z-index: 10;
+
+    height: 2.5rem;
+
+    width: 2.5rem;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(2 17 65 / var(--tw-text-opacity))
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./components/search/ticket/index.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.ticket_ticket__wTIbU {
+
+    display: flex;
+
+    width: 100%;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    gap: 0.75rem;
+
+    border-width: 1px;
+
+    border-style: solid;
+
+    --tw-border-opacity: 1;
+
+    border-color: rgb(229 231 235 / var(--tw-border-opacity));
+
+    padding: 1rem
+}
+
+@media (min-width: 640px) {
+
+    .ticket_ticket__wTIbU {
+
+        flex-direction: row;
+
+        gap: 0px
+    }
+}
+
+.ticket_ticketLeft__CduOr {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center
+}
+
+@media (min-width: 640px) {
+
+    .ticket_ticketLeft__CduOr {
+
+        align-items: flex-start;
+
+        text-align: left
+    }
+}
+
+.ticket_ticketLeft__CduOr>span {
+
+    font-size: 0.75rem;
+
+    line-height: 1rem;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(107 114 128 / var(--tw-text-opacity))
+}
+
+.ticket_ticketLeftBottom__0Jj67 {
+
+    margin-top: 0.25rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 0.5rem
+}
+
+@media (min-width: 640px) {
+
+    .ticket_ticketLeftBottom__0Jj67 {
+
+        align-items: flex-start
+    }
+}
+
+.ticket_ticketLeftBottom__0Jj67 span {
+
+    font-size: 0.875rem;
+
+    line-height: 1.25rem;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(107 114 128 / var(--tw-text-opacity))
+}
+
+.ticket_ticketLeftBottom__0Jj67 svg {
+
+    height: 1rem;
+
+    width: 1rem
+}
+
+.ticket_ticketMiddle__aP_Vz {
+
+    margin-left: 1rem;
+
+    margin-right: 1rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center
+}
+
+.ticket_ticketMiddleTop__y4_Lj {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 0.5rem
+}
+
+.ticket_ticketMiddleTop__y4_Lj p {
+
+    font-size: 0.875rem;
+
+    line-height: 1.25rem;
+
+    font-weight: 500;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(107 114 128 / var(--tw-text-opacity))
+}
+
+.ticket_ticketMiddleTop__y4_Lj span {
+
+    font-weight: 500;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(55 65 81 / var(--tw-text-opacity))
+}
+
+
+.ticket_ticketMiddleBottom__Cvg8b {
+
+    margin-top: 0.25rem;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 0.5rem;
+
+    font-size: 0.875rem;
+
+    line-height: 1.25rem;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(107 114 128 / var(--tw-text-opacity))
+}
+
+.ticket_ticketMiddleBottom__Cvg8b svg {
+
+    height: 0.75rem;
+
+    width: 0.75rem
+}
+
+.ticket_ticketRight__ZHKbR {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center
+}
+
+.ticket_ticketRight__ZHKbR p {
+
+    font-size: 1.25rem;
+
+    line-height: 1.75rem;
+
+    font-weight: 600;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(55 65 81 / var(--tw-text-opacity))
+}
+
+.ticket_ticketRight__ZHKbR span {
+
+    font-size: 0.75rem;
+
+    line-height: 1rem;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(107 114 128 / var(--tw-text-opacity))
+}
+
+.ticket_ticketButton__Ml1sc {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center
+}
+
+.ticket_ticketButton__Ml1sc button {
+
+    cursor: pointer;
+
+    border-radius: 0.375rem;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+
+    padding-left: 1rem;
+
+    padding-right: 1rem;
+
+    padding-top: 0.5rem;
+
+    padding-bottom: 0.5rem;
+
+    font-size: 0.875rem;
+
+    line-height: 1.25rem;
+
+    font-weight: 500;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./components/profile/noData/index.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.noData_noDataContainer__qzn3l {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 2.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity))
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./container/search/flight/index.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.flight_searchContainer__P_Qb4 {
+
+    margin-top: 5rem;
+
+    display: flex;
+
+    height: 100%;
+
+    min-height: 70dvh;
+
+    width: 100%
+}
+
+.flight_searchContent__s_4Il {
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    display: flex;
+
+    height: 100%;
+
+    width: 100%;
+
+    max-width: 64rem;
+
+    flex-direction: column;
+
+    padding-top: 3.5rem
+}
+
+.flight_searchTitle___0HVP {
+
+    margin-bottom: 2.5rem;
+
+    text-align: center;
+
+    font-size: 2.25rem;
+
+    line-height: 2.5rem;
+
+    font-weight: 600
+}
+
+.flight_searchBody__EkLRi {
+
+    display: flex;
+
+    height: 100%;
+
+    width: 100%;
+
+    flex-direction: column
+}
+
+@media (min-width: 1024px) {
+
+    .flight_searchBody__EkLRi {
+
+        flex-direction: row
+    }
+}
+
+.flight_searchFilter__XnAmX {
+
+    display: flex;
+
+    height: 100%;
+
+    width: 100%;
+
+    flex-direction: column;
+
+    border-width: 1px;
+
+    border-style: solid;
+
+    --tw-border-opacity: 1;
+
+    border-color: rgb(229 231 235 / var(--tw-border-opacity))
+}
+
+@media (min-width: 1024px) {
+
+    .flight_searchFilter__XnAmX {
+
+        width: 33.333333%;
+
+        min-width: 18rem
+    }
+}
+
+.flight_filterTitle__dH4Dr {
+
+    width: 100%;
+
+    border-width: 1px;
+
+    border-style: solid;
+
+    --tw-border-opacity: 1;
+
+    border-color: rgb(229 231 235 / var(--tw-border-opacity));
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+
+    padding-top: 0.75rem;
+
+    padding-bottom: 0.75rem;
+
+    text-align: center;
+
+    font-size: 0.875rem;
+
+    line-height: 1.25rem;
+
+    font-weight: 500;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(107 114 128 / var(--tw-text-opacity))
+}
+
+.flight_filterBody__fWie4 {
+
+    display: flex;
+
+    height: 100%;
+
+    width: 100%;
+
+    flex-direction: column
+}
+
+.flight_filterItem__l1M5G {
+
+    display: flex;
+
+    width: 100%;
+
+    flex-direction: column
+}
+
+.flight_filterItemHeader__effMu {
+
+    display: flex;
+
+    width: 100%;
+
+    gap: 0.5rem;
+
+    border-top-width: 1px;
+
+    border-style: solid;
+
+    --tw-border-opacity: 1;
+
+    border-color: rgb(229 231 235 / var(--tw-border-opacity));
+
+    padding: 0.75rem;
+
+    font-size: 0.875rem;
+
+    line-height: 1.25rem;
+
+    font-weight: 500;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(75 85 99 / var(--tw-text-opacity))
+}
+
+.flight_filterItemHeader__effMu svg {
+
+    height: 1.25rem;
+
+    width: 1.25rem
+}
+
+.flight_filterItemContent__uiLrB {
+
+    display: flex;
+
+    width: 100%;
+
+    flex-direction: column;
+
+    padding-top: 0.75rem;
+
+    padding-bottom: 0.75rem;
+
+    padding-left: 1rem
+}
+
+.flight_searchResult__AVn_y {
+
+    display: flex;
+
+    height: 100%;
+
+    width: 100%;
+
+    flex-direction: column
+}
+
+.flight_resultTitle__VZQ_a {
+
+    width: 100%;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+
+    padding-top: 0.75rem;
+
+    padding-bottom: 0.75rem;
+
+    text-align: center;
+
+    font-size: 0.875rem;
+
+    line-height: 1.25rem;
+
+    font-weight: 500;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(249 250 251 / var(--tw-text-opacity))
+}
+
+.flight_resultBody__QDtoE {
+
+    display: flex;
+
+    height: 100%;
+
+    width: 100%;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 1.25rem;
+
+    padding: 1rem
+}

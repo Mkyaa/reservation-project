@@ -1,0 +1,33 @@
+.exploreContainer {
+  @apply w-full mx-auto
+  flex flex-col items-center px-4
+}
+
+.exploreContent {
+  @apply w-full max-w-5xl 
+}
+
+.exploreTitle {
+  @apply text-2xl font-semibold mb-8 mt-10
+}
+
+.exploreBody {
+  @apply w-full flex flex-wrap justify-center 
+  gap-3
+}
+
+.exploreCard {
+@apply w-[45%] sm:w-[30%] lg:w-[24%] 
+ h-auto rounded-md relative
+ cursor-pointer
+}
+
+.exploreCard img {
+  @apply w-full 
+}
+
+.exploreCard p {
+  @apply text-black text-xs font-semibold
+   absolute bottom-4 left-4
+   bg-white px-3 py-1 rounded-full
+}

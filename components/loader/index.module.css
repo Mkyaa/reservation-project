@@ -1,0 +1,17 @@
+.loaderContainer{
+    @apply fixed top-0 left-0 
+    w-screen h-screen
+    flex flex-col justify-center items-center
+    bg-white 
+    z-50
+}
+
+.loaderContent{
+    @apply relative flex justify-center items-center
+}
+
+.loaderIcon{
+    @apply absolute top-10 z-10 
+    w-10 h-10
+    text-[#021141]
+}

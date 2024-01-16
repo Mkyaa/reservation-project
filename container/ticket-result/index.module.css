@@ -1,0 +1,18 @@
+.ticketResultContainer{
+    @apply w-full h-full min-h-[70dvh]
+      flex flex-col justify-center items-center
+}
+
+.ticketResultContainer h1{
+    @apply text-2xl font-semibold text-gray-700
+      py-3
+}
+
+.ticketResultContainer p{
+    @apply text-sm font-semibold text-gray-500
+    text-center
+}
+
+.ticketResultContainer a{
+    @apply text-sm font-semibold text-blue-500
+}

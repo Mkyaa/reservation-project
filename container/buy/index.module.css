@@ -1,0 +1,171 @@
+.form {
+  @apply w-full flex flex-col p-3 gap-8;
+}
+
+.buyContainer {
+  @apply w-full min-h-full
+  flex justify-center items-center;
+}
+
+.buyContent {
+  @apply w-full max-w-5xl min-h-full
+    flex flex-col
+    mt-32;
+}
+
+.buyContainerTitle {
+  @apply w-full text-center 
+    text-xl font-semibold text-gray-700
+    py-3
+    /* border border-solid border-gray-200
+    border-b-0  */;
+}
+
+.buyContainerBody {
+  @apply w-full h-full
+  flex flex-col sm:flex-row 
+  border-b border-t border-solid border-gray-200;
+}
+
+.buyContainerBodyLeft {
+  @apply w-full sm:w-1/2 h-full
+    flex flex-col p-5 gap-10
+    border-r border-solid border-gray-200;
+}
+
+.formTitle {
+  @apply w-full  
+    font-semibold text-gray-700 p-2 
+    border-b border-solid border-gray-200;
+}
+
+.formBody {
+  @apply w-full 
+    flex flex-col
+    gap-3 py-4;
+}
+
+.formGroup {
+  @apply w-full 
+    flex flex-col
+    gap-2;
+}
+
+.formGroupLabel {
+  @apply w-full 
+    flex justify-between items-center;
+}
+
+.formGroup label {
+  @apply text-sm font-semibold text-gray-500;
+}
+
+.errorMessage {
+  @apply text-xs text-red-500;
+}
+
+.formGroup input {
+  @apply w-full
+  text-sm text-gray-700 
+    border border-solid border-gray-200
+    rounded-md p-2
+    outline-none;
+}
+
+.formGroupRadio {
+  @apply w-full 
+    flex gap-5;
+}
+
+.formGroupRadioItem {
+  @apply flex gap-2 items-center;
+}
+
+.formGroupRadioItem label {
+  @apply text-sm font-normal text-gray-500;
+}
+
+.formGroup input:focus {
+  @apply border border-solid border-blue-500;
+}
+
+.formGroup input::placeholder {
+  @apply text-sm text-gray-400;
+}
+
+.formGroup input[type="radio"] {
+  @apply w-4 h-4;
+}
+
+.formGroup input[type="radio"]:checked {
+  @apply border border-solid border-blue-500;
+}
+
+.formGroup input[type="radio"]:checked::after {
+  @apply w-3 h-3 bg-blue-500 rounded-md;
+}
+
+.formGroup input[type="radio"]:focus {
+  @apply border border-solid border-blue-500;
+}
+
+.formGroup input[type="radio"]:focus::after {
+  @apply w-3 h-3 bg-blue-500 rounded-md;
+}
+
+.formGroup input[type="date"] {
+  @apply w-full 
+    border border-solid border-gray-200
+    rounded-md
+    p-2 text-sm
+    outline-none;
+}
+
+.buyContainerBodyRight{
+  @apply w-full sm:w-1/2 min-h-full
+    flex flex-col 
+    bg-gray-50;
+}
+
+.buyContainerBodyRightContent {
+  @apply w-full p-5
+    flex flex-col gap-5;
+}
+
+.buyContainerBodyRightContentTitle {
+  @apply w-full 
+    text-xl font-semibold text-gray-700
+    border-b border-solid border-gray-200;
+}
+
+.buyContainerBodyRightContentBody {
+  @apply w-full 
+    flex flex-col gap-2;
+}
+
+.buyContainerBodyRightContentBodyItem {
+  @apply w-full 
+    flex justify-between items-center;
+}
+
+.buyContainerBodyRightContentBodyItem p {
+  @apply text-xs font-normal text-gray-500;
+}
+
+.buyContainerBodyRightContentBodyItem span {
+  @apply text-sm font-semibold text-gray-700;
+}
+
+.buyContainerBodyRightButton {
+  @apply w-full 
+}
+
+.buyContainerBodyRightButton button {
+  @apply w-full 
+    bg-black text-gray-50
+    rounded-full p-4
+    text-sm font-semibold
+    outline-none;
+}
+
+

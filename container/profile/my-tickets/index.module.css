@@ -1,0 +1,56 @@
+.ticketsContainer {
+  @apply w-full h-auto sm:h-full flex flex-col sm:flex-row
+  gap-4;
+}
+
+.ticketFilter {
+  @apply w-full sm:w-52 h-full 
+    flex flex-row sm:flex-col justify-center sm:justify-start items-center
+    gap-6 py-8 px-2
+    border-b sm:border-r border-solid border-gray-200
+    text-gray-400 text-sm;
+}
+
+.ticketFilterItem {
+  @apply cursor-pointer
+    hover:text-black;
+}
+
+.active {
+  @apply text-black;
+}
+
+.ticketList {
+  @apply w-full h-full 
+  md:overflow-hidden
+}
+
+.ticketListContent {
+  @apply w-full h-full md:max-h-[60vh]
+    flex flex-col items-center
+    gap-10 p-6
+    md:overflow-y-auto
+}
+
+
+/* Genel scrollbar */
+.ticketListContent::-webkit-scrollbar {
+  @apply w-2
+}
+
+/* Scrollbar'ın renkleri ve görünümü */
+.ticketListContent::-webkit-scrollbar-thumb {
+  @apply bg-gray-300
+  rounded-lg
+}
+
+/* Scrollbar'ın etrafındaki arka plan rengi */
+.ticketListContent::-webkit-scrollbar-track {
+  @apply bg-gray-100
+}
+
+/* Aktif hale gelmiş scrollbar */
+.ticketListContent::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400
+}
+

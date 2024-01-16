@@ -1,0 +1,17 @@
+.mobileNavbarContainer{
+    @apply w-full 
+    flex flex-col items-center justify-center
+    gap-8 pb-10
+    border-b border-solid border-gray-200
+}
+
+.mobileNavbarContainer a{
+    @apply text-gray-500 text-4xl
+    cursor-pointer
+    hover:text-black
+}
+
+.active {
+    @apply border-b border-solid border-gray-800
+}
+
